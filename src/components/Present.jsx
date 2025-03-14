@@ -9,9 +9,7 @@ const present = () => {
       <hr className="border-t-2 border-[rgb(179,186,198)] mb-[10px]" />
       <div>
         <p className="text-[rgb(179,186,198)] mb-[12px]">
-          I am 23 years old, from Colombo, Sri Lanka. I love everything
-          to do with birds, history, coding, gaming, football, and
-          binge-watching movies and TV shows!
+          I am 23 years old, from Colombo, Sri Lanka. I love everything to do with Betta fish, pigeons, history, esports (Dota 2 pro scene), football, and binge-watching movies and TV shows!
         </p>
         <p className="text-[rgb(179,186,198)] ">
           Currently, I have taken an indefinite semester break to gain industry

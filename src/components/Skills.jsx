@@ -6,7 +6,6 @@ import { RiNextjsFill } from "react-icons/ri";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { FaNodeJs } from "react-icons/fa";
 import { DiMongodb } from "react-icons/di";
-import { FaDocker } from "react-icons/fa";
 import { FaGitAlt } from "react-icons/fa";
 import { SiPostman } from "react-icons/si";
 
@@ -49,10 +48,6 @@ const Skills = () => {
 
           <div className="mr-4 mb-4">
             <DiMongodb className="text-[rgb(179,186,198)] w-12 h-12 hover:text-white  transition-all duration-200" />
-          </div>
-
-          <div className="mr-4 mb-4">
-            <FaDocker className="text-[rgb(179,186,198)] w-12 h-12 hover:text-white  transition-all duration-200" />
           </div>
 
           <div className="mr-4 mb-4">

@@ -15,7 +15,7 @@ const About = () => {
           width={200}
           height={200}
           className="rounded-full border-[2px] border-yellow-500  grayscale hover:grayscale-0 transition-all duration-300 max-w-full min-w-[100px] min-h-[100px]"
-          
+
         />
       </div>
 
@@ -24,28 +24,28 @@ const About = () => {
           Hey, I am  <strong className="font-semi-bold">Aneeq Shaffy</strong>!
         </h1>
         <p className="mb-3 text-[rgb(179,186,198)]">
-        I am a Frontend Developer with a strong foundation in HTML, CSS<br/>
-         &amp; JavaScript seeking an internship to collaborate and grow
-         as a developer.
+          I am a React Web Developer with a strong foundation in HTML, CSS<br />
+          &amp; JavaScript seeking an internship to collaborate and grow
+          as a developer.
         </p>
-          <div className="flex">
-            <div>
-              <a href="/cv.pdf" target="_blank" className="text-[rgb(179,186,198)]  "><TbFileCv className="mr-4 text-[rgb(179,186,198)] hover:text-white w-[25px] h-[25px]" /> </a>
-            </div>
-            <div>
-              <a href="tel:+94762844725" target="_blank" className="text-[rgb(179,186,198)]  "><FaPhoneAlt className="mr-4 text-[rgb(179,186,198)] hover:text-white w-[25px] h-[25px]" /> </a>
-            </div>
-            <div>
-              <a href="https://www.linkedin.com/in/aneeq-shaffy" target="_blank" className="text-[rgb(179,186,198)]  "><FaLinkedin className="mr-4 text-[rgb(179,186,198)] hover:text-white w-[25px] h-[25px]" /> </a>
-            </div>
-            <div>
-              <a href="https://github.com/gitPirate12" target="_blank" className="text-[rgb(179,186,198)]  "><FiGithub className="mr-4 text-[rgb(179,186,198)] hover:text-white w-[25px] h-[25px]" /> </a>
-            </div>
-            <div>
-              <a href="mailto:aneeqshaffy7@gmail.com" target="_blank" className="text-[rgb(179,186,198)]  "><SiGmail className="mr-4 text-[rgb(179,186,198)] hover:text-white w-[25px] h-[25px]" /> </a>
-            </div>
-            
+        <div className="flex">
+          <div>
+            <a href="/cv.pdf" target="_blank" className="text-[rgb(179,186,198)]  "><TbFileCv className="mr-4 text-[rgb(179,186,198)] hover:text-white w-[25px] h-[25px]" /> </a>
           </div>
+          <div>
+            <a href="tel:+94762844725" target="_blank" className="text-[rgb(179,186,198)]  "><FaPhoneAlt className="mr-4 text-[rgb(179,186,198)] hover:text-white w-[25px] h-[25px]" /> </a>
+          </div>
+          <div>
+            <a href="https://www.linkedin.com/in/aneeq-shaffy" target="_blank" className="text-[rgb(179,186,198)]  "><FaLinkedin className="mr-4 text-[rgb(179,186,198)] hover:text-white w-[25px] h-[25px]" /> </a>
+          </div>
+          <div>
+            <a href="https://github.com/gitPirate12" target="_blank" className="text-[rgb(179,186,198)]  "><FiGithub className="mr-4 text-[rgb(179,186,198)] hover:text-white w-[25px] h-[25px]" /> </a>
+          </div>
+          <div>
+            <a href="mailto:aneeqshaffy7@gmail.com" target="_blank" className="text-[rgb(179,186,198)]  "><SiGmail className="mr-4 text-[rgb(179,186,198)] hover:text-white w-[25px] h-[25px]" /> </a>
+          </div>
+
+        </div>
       </div>
     </section>
   );
