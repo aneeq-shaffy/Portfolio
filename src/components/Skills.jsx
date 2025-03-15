@@ -13,49 +13,50 @@ const Skills = () => {
   return (
     <section className="mb-[80px]">
       <div>
-        <h1 className="text-3xl mb-1">
+        <h1 className="text-2xl mb-1 text-left">
           &lt;/&gt; <strong className="font-semibold">Tech Stack</strong>
         </h1>
+        
         <hr className="border border-[rgb(179,186,198)] mb-[14px]" />
-        <div className="flex flex-wrap justify-start pl-[30px] space-x-4 sm:space-x-6">
-          <div className=" mb-4">
-            <FaHtml5 className="text-[rgb(179,186,198)] w-12 h-12 hover:text-white  transition-all duration-200" />
+        <div className="flex flex-wrap justify-center gap-4 sm:gap-6 pl-4 sm:pl-0">
+          <div className="mb-4 flex-1">
+            <FaHtml5 className="text-[rgb(179,186,198)] w-full h-full sm:w-10 sm:h-10 hover:text-white transition-all duration-200" />
           </div>
 
-          <div className="mr-4 mb-4">
-            <FaCss3Alt className="text-[rgb(179,186,198)] w-12 h-12 hover:text-white  transition-all duration-200" />
+          <div className="mb-4 flex-1">
+            <FaCss3Alt className="text-[rgb(179,186,198)] w-full h-full sm:w-10 sm:h-10 hover:text-white transition-all duration-200" />
           </div>
 
-          <div className="mr-4 mb-4">
-            <IoLogoJavascript className="text-[rgb(179,186,198)] w-12 h-12 hover:text-white  transition-all duration-200" />
+          <div className="mb-4 flex-1">
+            <IoLogoJavascript className="text-[rgb(179,186,198)] w-full h-full sm:w-10 sm:h-10 hover:text-white transition-all duration-200" />
           </div>
 
-          <div className="mr-4 mb-4">
-            <FaReact className="text-[rgb(179,186,198)] w-12 h-12 hover:text-white  transition-all duration-200" />
+          <div className="mb-4 flex-1">
+            <FaReact className="text-[rgb(179,186,198)] w-full h-full sm:w-10 sm:h-10 hover:text-white transition-all duration-200" />
           </div>
 
-          <div className="mr-4 mb-4">
-            <RiNextjsFill className="text-[rgb(179,186,198)] w-12 h-12 hover:text-white  transition-all duration-200" />
+          <div className="mb-4 flex-1">
+            <RiNextjsFill className="text-[rgb(179,186,198)] w-full h-full sm:w-10 sm:h-10 hover:text-white transition-all duration-200" />
           </div>
 
-          <div className="mr-4 mb-4">
-            <RiTailwindCssFill className="text-[rgb(179,186,198)] w-12 h-12 hover:text-white  transition-all duration-200" />
+          <div className="mb-4 flex-1">
+            <RiTailwindCssFill className="text-[rgb(179,186,198)] w-full h-full sm:w-10 sm:h-10 hover:text-white transition-all duration-200" />
           </div>
 
-          <div className="mr-4 mb-4">
-            <FaNodeJs className="text-[rgb(179,186,198)] w-12 h-12 hover:text-white  transition-all duration-200" />
+          <div className="mb-4 flex-1">
+            <FaNodeJs className="text-[rgb(179,186,198)] w-full h-full sm:w-10 sm:h-10 hover:text-white transition-all duration-200" />
           </div>
 
-          <div className="mr-4 mb-4">
-            <DiMongodb className="text-[rgb(179,186,198)] w-12 h-12 hover:text-white  transition-all duration-200" />
+          <div className="mb-4 flex-1">
+            <DiMongodb className="text-[rgb(179,186,198)] w-full h-full sm:w-10 sm:h-10 hover:text-white transition-all duration-200" />
           </div>
 
-          <div className="mr-4 mb-4">
-            <FaGitAlt className="text-[rgb(179,186,198)] w-12 h-12 hover:text-white  transition-all duration-200" />
+          <div className="mb-4 flex-1">
+            <FaGitAlt className="text-[rgb(179,186,198)] w-full h-full sm:w-10 sm:h-10 hover:text-white transition-all duration-200" />
           </div>
 
-          <div className="mr-4 mb-4">
-            <SiPostman className="text-[rgb(179,186,198)] w-12 h-12 hover:text-white  transition-all duration-200" />
+          <div className="mb-4 flex-1">
+            <SiPostman className="text-[rgb(179,186,198)] w-full h-full sm:w-10 sm:h-10 hover:text-white transition-all duration-200" />
           </div>
         </div>
       </div>

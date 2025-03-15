@@ -11,7 +11,7 @@ const Projects = () => {
         </h1>
         <hr className="border-t-2 border-[rgb(179,186,198)] mb-[12px]" />
 
-        <div className="grid grid-cols-2 gap-3 auto-rows-[minmax(300px,auto)]">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-3 auto-rows-[minmax(200px,auto)] md:auto-rows-[minmax(300px,auto)] max-md:overflow-x-hidden">
           {/* Project 1 */}
           <div className="relative group aspect-[4/3]">
             <div className="relative w-full h-full">
@@ -74,6 +74,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
+
           {/* Project 3 */}
           <div className="relative group aspect-[4/3]">
             <div className="relative w-full h-full">

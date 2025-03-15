@@ -4,11 +4,11 @@ const Contact = () => {
   return (
     <section className="mb-[80px]">
       <div>
-        <h1 className="text-2xl mb-1">
+        <h1 className="text-2xl mb-1 text-left max-md:text-xl">
           📞 <strong className="font-semibold">Contact</strong>
         </h1>
         <hr className="border-t-2 border-[rgb(179,186,198)] mb-[10px]" />
-        <p className="text-[rgb(179,186,198)]">
+        <p className="text-[rgb(179,186,198)] max-md:text-sm">
           The best way to contact me is via email at {""}
           <a
             href="mailto:aneeqshaffy7@gmail.com"
@@ -17,7 +17,7 @@ const Contact = () => {
           >
             aneeqshaffy7@gmail.com
           </a>
-          . Alternatively, you can reach me directly at {""} 
+          . Alternatively, you can reach me directly at {""}
           <a
             href="tel:+94762844725"
             className="text-[rgb(179,186,198)]  hover:text-white"

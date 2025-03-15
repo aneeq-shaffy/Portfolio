@@ -18,12 +18,17 @@
   }
 }
 
-body {
+html, body {
   color: var(--primary);
   font-family: 'Inter', sans-serif;
   background: var(--background-from); 
   min-height: 100svh;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
+
+ 
 
 
 body::before {
