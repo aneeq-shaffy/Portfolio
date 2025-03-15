@@ -18,9 +18,10 @@ const About = () => {
       </div>
 
       <div>
-        <h1 className="mb-3 text-3xl sm:text-4xl tracking-tighter whitespace-nowrap">
-          Hey, I am <strong className="font-semi-bold">Aneeq Shaffy</strong>!
-        </h1>
+      <h1 className="mb-3 text-2xl sm:text-3xl lg:text-4xl tracking-tighter whitespace-nowrap">
+  Hey, I am <strong className="font-semibold">Aneeq Shaffy</strong>!
+</h1>
+
         <p className="mb-3 text-[rgb(179,186,198)] text-sm sm:text-base">
           I am a React Web Developer with a strong foundation in HTML, CSS<br />
           &amp; JavaScript seeking an internship to collaborate and grow
