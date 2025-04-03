@@ -8,6 +8,7 @@ import { FaNodeJs } from "react-icons/fa";
 import { DiMongodb } from "react-icons/di";
 import { FaGitAlt } from "react-icons/fa";
 import { SiPostman } from "react-icons/si";
+import { BiLogoSpringBoot } from "react-icons/bi";
 
 const Skills = () => {
   return (
@@ -57,6 +58,9 @@ const Skills = () => {
 
           <div className="mb-4 flex-1">
             <SiPostman className="text-[rgb(179,186,198)] w-full h-full sm:w-10 sm:h-10 hover:text-white transition-all duration-200" />
+          </div>
+          <div className="mb-4 flex-1">
+            <BiLogoSpringBoot className="text-[rgb(179,186,198)] w-full h-full sm:w-10 sm:h-10 hover:text-white transition-all duration-200" />
           </div>
         </div>
       </div>
