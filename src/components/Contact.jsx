@@ -1,15 +1,26 @@
-import React from 'react';
+import React from "react";
 
 const Contact = () => {
   return (
     <section className="mb-[80px]">
-      <div>
-        <h1 className="text-2xl mb-1 text-left max-md:text-xl">
-          📞 <strong className="font-semibold">Contact</strong>
+      <div className="mb-4">
+        <h1 className="text-2xl sm:text-3xl mb-2 flex items-center">
+          <span className="mr-2">📞</span>
+          <strong className="font-semibold">
+            Desperation Hotline
+          </strong>
         </h1>
-        <hr className="border-t-2 border-[rgb(179,186,198)] mb-[10px]" />
-        <p className="text-[rgb(179,186,198)] max-md:text-sm">
-          The best way to contact me is via email at {""}
+        <p className="text-[rgb(179,186,198)] text-sm italic mb-1">
+          (accepting job offers, therapy, or vibes)
+        </p>
+        <hr className="border-t-2 border-[rgb(179,186,198)] mt-3 mb-4" />
+      </div>
+
+      <div>
+        <p className="text-[rgb(179,186,198)] text-sm sm:text-base leading-relaxed">
+          For urgent cries for help (or job offers, preferably full-stack), ping me at:
+          <br /><br />
+          Email:{" "}
           <a
             href="mailto:aneeqshaffy7@gmail.com"
             target="_blank"
@@ -17,14 +28,19 @@ const Contact = () => {
           >
             aneeqshaffy7@gmail.com
           </a>
-          . Alternatively, you can reach me directly at {""}
+          <br /><br />
+          Mobile:{" "}
           <a
             href="tel:+94762844725"
-            className="text-[rgb(179,186,198)]  hover:text-white"
+            className="text-[rgb(179,186,198)] underline hover:text-white"
           >
             076-284-4725
-          </a>
-          .
+          </a>{" "}
+          (Signal/WhatsApp, no voicemails - I'm allergic)
+          <br /><br />
+          <span className="text-xs">
+            *Responses delivered between panic attacks, usually within 1 business meltdown
+          </span>
         </p>
       </div>
     </section>
