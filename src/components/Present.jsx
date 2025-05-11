@@ -18,7 +18,7 @@ const Present = () => {
 
       <div>
         <p className="text-[rgb(179,186,198)] text-sm sm:text-base leading-relaxed">
-           Throwing Next.js apps into the React civil war, clueless whether to side with Team Simplicity or Iceland’s Cloud Sales Cult. Accidentally enlisted with Team Iceland — kinda scared now, send help, senpai. Still battling a Next.js vibe-coding mind virus — security flops included — and reconsidering life choices daily. Slinging code like a drunk catapult operator from Colombo. Applying for internships with cover letters that double as psychological horror stories — each one a cry for help wrapped in corporate lingo. Powered by anxiety, bad coffee, and an escalating fear of adult responsibilities. Escaping jobophobia one panicked "submit" click at a time.
+           Throwing Next.js apps into the React civil war, clueless whether to side with Team Simplicity or Iceland’s Cloud Sales Cult. Accidentally enlisted with Team Iceland — kinda scared now, send help, senpai. Currently battling a Next.js vibe-coding mind virus — security flops included — and reconsidering life choices daily. Slinging code like a drunk catapult operator from Colombo. Applying for internships with cover letters that double as psychological horror stories — each one a cry for help wrapped in corporate lingo. Powered by anxiety, bad coffee, and an escalating fear of adult responsibilities. Escaping jobophobia one panicked "submit" click at a time.
         </p>
       </div>
     </section>
