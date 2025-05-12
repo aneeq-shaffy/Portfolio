@@ -4,99 +4,99 @@ import { FiGithub } from "react-icons/fi";
 
 const Projects = () => {
   return (
-    <section className="mb-[80px]">
+    <section className="mb-16 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
       <div>
-        <h1 className="text-2xl mb-1">
-          🛠️ <strong className="font-semibold"> Projects</strong>
+        <h1 className="text-2xl sm:text-3xl md:text-4xl mb-2 flex items-center font-sans font-bold tracking-tight">
+          <span className="mr-2 text-teal-300">🛠️</span>
+          Projects
         </h1>
-        <hr className="border-t-2 border-[rgb(179,186,198)] mb-[12px]" />
+        <hr className="border-t-2 border-gray-600 mb-6" />
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-3 auto-rows-[minmax(200px,auto)] md:auto-rows-[minmax(300px,auto)] max-md:overflow-x-hidden">
-          {/* Project 1 */}
-          <div className="relative group aspect-[4/3]">
-            <div className="relative w-full h-full">
-              <Image
-                src="/project1.png"
-                alt="Fitfusion"
-                fill
-                className="rounded-lg shadow-lg object-cover"
-              />
-              <div className="absolute inset-0 bg-black/90 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg p-4">
-                <h2 className="text-white text-lg font-semibold mb-2 text-center">
-                  <strong>Fitfusion</strong>
-                </h2>
-                <p className="text-[rgb(179,186,198)] text-sm text-center px-4 mb-1">
-                  Developed using Spring Boot for the backend and React.js with Vite for the frontend, this project helped reinforce my understanding of essential Web API concepts in Java. Since Spring Boot was completely new to me, I learned how models, repositories, and services interact with controllers in the backend.
-                </p>
-                <div className="flex gap-4 mt-1">
-                  <Link
-                    href="https://github.com/gitPirate12/FitFusion"
-                    target="_blank"
-                  >
-                    <span className="bg-white text-[rgb(179,186,198)] px-3 py-1 rounded-md hover:text-white">
-                      <FiGithub />
-                    </span>
-                  </Link>
-                </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 auto-rows-[minmax(240px,auto)]">
+          {/* Project 1 - Fitfusion */}
+          <div className="relative group aspect-[4/3] rounded-lg overflow-hidden shadow-lg">
+            <Image
+              src="/project1.png"
+              alt="Fitfusion project screenshot"
+              fill
+              className="object-cover transition-transform duration-300 group-hover:scale-105"
+              sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+              priority
+            />
+            <div className="absolute inset-0 bg-black/80 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-3 z-10">
+              <h2 className="text-gray-200 text-base sm:text-lg font-bold mb-1 text-center font-sans tracking-tight">
+                Fitfusion
+              </h2>
+              <p className="text-gray-400 text-xs sm:text-sm font-mono leading-relaxed text-center mb-2">
+                Spring Boot/React app, survived backend spaghetti & @Autowired chaos. 🎰🚀
+              </p>
+              <div className="flex gap-4 mt-1">
+                <Link
+                  href="https://github.com/gitPirate12/FitFusion"
+                  target="_blank"
+                >
+                  <span className="bg-white text-[rgb(179,186,198)] px-3 py-1 rounded-md hover:text-white">
+                    <FiGithub />
+                  </span>
+                </Link>
               </div>
             </div>
           </div>
 
-          {/* Project 2 */}
-          <div className="relative group aspect-[4/3]">
-            <div className="relative w-full h-full">
-              <Image
-                src="/project2.png"
-                alt="ITPM-Lingo"
-                fill
-                className="rounded-lg shadow-lg object-cover"
-              />
-              <div className="absolute inset-0 bg-black/90 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg p-4">
-                <h2 className="text-white text-lg font-semibold mb-2 text-center">
-                  <strong>ITPM-Lingo</strong>
-                </h2>
-                <p className="text-[rgb(179,186,198)] text-sm text-center px-4 mb-1">
-                  Developed using Next.js, this project reinforced my understanding of creating APIs to perform CRUD operations. I also integrated free-tier APIs from RapidAPI and implemented JWT-based authentication and OAuth. Additionally, I deployed the app using Vercel and found Google Cloud Console to be a bit challenging, but it was a valuable learning experience.
-                </p>
-                <div className="flex gap-4 mt-1">
-                  <Link
-                    href="https://github.com/gitPirate12/itpm-lingo-2.0"
-                    target="_blank"
-                  >
-                    <span className="bg-white text-[rgb(179,186,198)] px-3 py-1 rounded-md hover:text-white">
-                      <FiGithub />
-                    </span>
-                  </Link>
-                </div>
+          {/* Project 2 - ITPM-Lingo */}
+          <div className="relative group aspect-[4/3] rounded-lg overflow-hidden shadow-lg">
+            <Image
+              src="/project2.png"
+              alt="ITPM-Lingo project screenshot"
+              fill
+              className="object-cover transition-transform duration-300 group-hover:scale-105"
+              sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+            />
+            <div className="absolute inset-0 bg-black/80 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-3 z-10">
+              <h2 className="text-gray-200 text-base sm:text-lg font-bold mb-1 text-center font-sans tracking-tight">
+                ITPM-Lingo
+              </h2>
+              <p className="text-gray-400 text-xs sm:text-sm font-mono leading-relaxed text-center mb-2">
+                Next.js CRUD app with OAuth, beat RapidAPI limits, Vercel deploy. 🔥🚀
+              </p>
+              <div className="flex gap-4 mt-1">
+                <Link
+                  href="https://github.com/gitPirate12/itpm-lingo-2.0"
+                  target="_blank"
+                >
+                  <span className="bg-white text-[rgb(179,186,198)] px-3 py-1 rounded-md hover:text-white">
+                    <FiGithub />
+                  </span>
+                </Link>
               </div>
             </div>
           </div>
-          {/* Project 3 */}
-          <div className="relative group aspect-[4/3]">
-            <div className="relative w-full h-full">
-              <Image
-                src="/project3.png"
-                alt="Flavor Exchange"
-                fill
-                className="rounded-lg shadow-lg object-cover"
-              />
-              <div className="absolute inset-0 bg-black/90 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg p-4">
-                <h2 className="text-white text-lg font-semibold mb-2 text-center">
-                  <strong>Flavor Exchange</strong>
-                </h2>
-                <p className="text-[rgb(179,186,198)] text-sm text-center px-4 mb-1">
-                  Developed using Next.js, this project reinforced my understanding of route-based APIs to implement CRUD operations. I integrated GitHub OAuth authentication using NextAuth.js for secure session management. Additionally, I deployed the application on Vercel and documented all API endpoints using Postman, enhancing my understanding of API design and documentation. This project also deepened my knowledge of Next.js Context APIs for efficient state management.
-                </p>
-                <div className="flex gap-4 mt-1">
-                  <Link
-                    href="https://github.com/gitPirate12/flavor-exchange"
-                    target="_blank"
-                  >
-                    <span className="bg-white text-[rgb(179,186,198)] px-3 py-1 rounded-md hover:text-white">
-                      <FiGithub />
-                    </span>
-                  </Link>
-                </div>
+
+          {/* Project 3 - Flavor Exchange */}
+          <div className="relative group aspect-[4/3] rounded-lg overflow-hidden shadow-lg">
+            <Image
+              src="/project3.png"
+              alt="Flavor Exchange project screenshot"
+              fill
+              className="object-cover transition-transform duration-300 group-hover:scale-105"
+              sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+            />
+            <div className="absolute inset-0 bg-black/80 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-3 z-10">
+              <h2 className="text-gray-200 text-base sm:text-lg font-bold mb-1 text-center font-sans tracking-tight">
+                Flavor Exchange
+              </h2>
+              <p className="text-gray-400 text-xs sm:text-sm font-mono leading-relaxed text-center mb-2">
+                Next.js CRUD app with GitHub auth, Vercel deploy, Context API tamed. 🔥🚀
+              </p>
+              <div className="flex gap-4 mt-1">
+                <Link
+                  href="https://github.com/gitPirate12/flavor-exchange"
+                  target="_blank"
+                >
+                  <span className="bg-white text-[rgb(179,186,198)] px-3 py-1 rounded-md hover:text-white">
+                    <FiGithub />
+                  </span>
+                </Link>
               </div>
             </div>
           </div>
