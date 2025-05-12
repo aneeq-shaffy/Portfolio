@@ -28,7 +28,7 @@ const About = () => {
         </h1>
 
         <p className="mb-4 text-gray-400 text-sm sm:text-base md:text-lg lg:text-xl font-mono leading-relaxed max-w-[90%] sm:max-w-[600px] md:max-w-[650px] lg:max-w-[700px] mx-auto md:mx-0">
-          React/Next.js developer in a toxic relationship with JavaScript frameworks. Currently surviving on GPTs and caffeine, transforming existential dread into "agile solutions." My resume is 30% skills, 70% strategically bold lies. Let’s connect before my Vercel deployment fails again.
+          React/Next.js developer in a toxic relationship with JavaScript frameworks. Currently surviving on GPTs and caffeine, transforming existential dread into "agile solutions". My resume is 30% skills, 70% strategically bold lies. Let’s connect before my Vercel deployment fails again.
         </p>
 
         {/* Icons - Centered on mobile, left on desktop */}
