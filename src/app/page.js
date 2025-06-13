@@ -26,32 +26,35 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="px-[350px] max-xl:px-[300px] max-lg:px-[200px] max-md:px-[20px] max-sm:px-4">
+    <div className="h-screen flex flex-col">
       <Navbar />
       
-      <section id="about" className="mb-10 max-md:mb-4">
-        <About />
-      </section>
-      
-      <Present />
-      
-      <section id="education" className="mb-10 max-md:mb-4">
-        <Education />
-      </section>
-      
-      <section id="projects" className="mb-10 max-md:mb-4">
-        <Projects />
-      </section>
-      
-      <section id="tech-stack" className="mb-10 max-md:mb-4">
-        <Skills />
-      </section>
-      
-      <section id="contact" className="mb-10 max-md:mb-4">
-        <Contact />
-      </section>
-      
-      <Footer />
+      {/* Scrollable content area */}
+      <div className="flex-1 overflow-y-auto pt-20 px-4 sm:px-6 md:px-8 lg:px-[200px] xl:px-[300px] 2xl:px-[350px]">
+        <section id="about" className="mb-10 max-md:mb-4">
+          <About />
+        </section>
+        
+        <Present />
+        
+        <section id="education" className="mb-10 max-md:mb-4">
+          <Education />
+        </section>
+        
+        <section id="projects" className="mb-10 max-md:mb-4">
+          <Projects />
+        </section>
+        
+        <section id="skills" className="mb-10 max-md:mb-4">
+          <Skills />
+        </section>
+        
+        <section id="contact" className="mb-10 max-md:mb-4">
+          <Contact />
+        </section>
+        
+        <Footer />
+      </div>
     </div>
   );
 }
